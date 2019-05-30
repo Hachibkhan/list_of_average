@@ -1,15 +1,15 @@
-def li_average(li):
+def list_average(li):
 
     result = 0
 
-    for number in li:
+    for num in li:
 
-        result = result + number / 2
+        result = result + num / len(li)
 
     return result
 
-result = li_average([2, 4, 1, 6, 8, 10])
+result = list_average([2, 1, 4, 3, 5])
 
-print("Average result of list:", result)
+print("Average list result is:",result)
 
 
